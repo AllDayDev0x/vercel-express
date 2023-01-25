@@ -13,7 +13,7 @@
     "update": "cls && npm run getdata && npm run getimgs && npm run organize && npm run build",
     "demo-start": "http-server -c1",
     "api-start": "cls && node ./index.js",
-    "start": "http-server"
+    "start": "cls && node ./index.js"
   },
   "author": "",
   "license": "ISC",
