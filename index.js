@@ -153,7 +153,10 @@ app.get('/metadata/:tokenid/:sketchid/:hash', async (req, res) => {
         res.status(400).send('Bad request!')
     }
 });
-
+// app.use(express.static(__dirname + '/dist'));
+// app.get("/", (req, res) => {
+// 	res.sendFile(path.join(__dirname, "./index.html"));
+// });
 // Get Thumbnail Images
 app.get('/image/:type/:sketchid/:hash\.png', async (req, res) => {
     let filePath = null;
